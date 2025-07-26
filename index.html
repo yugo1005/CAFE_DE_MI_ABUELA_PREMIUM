@@ -13,28 +13,13 @@
 
   <style>
     .logo-img {
-      max-width: 200px;
-    }
-
-    .bg-custom-black {
-      background-color: #000000;
-    }
-
-    .text-custom-brown {
-      color: #D2B48C;
-    }
-
-    .text-custom-gold {
-      color: #D4AF37;
-    }
-
-    .border-custom-brown {
-      border-color: #8B4513;
+      max-width: 100px;
+      height: auto;
     }
 
     .header {
-      background-color: #000000;
-      color: #FFFFFF;
+      background-color: #000;
+      color: #fff;
       padding: 10px 20px;
       position: fixed;
       width: 100%;
@@ -43,30 +28,33 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
+      gap: 1rem;
     }
 
     .header .title {
-      text-align: center;
-      flex-grow: 1;
-      margin: 0 20px;
-      font-size: 24px;
+      font-size: 20px;
       font-weight: bold;
-      color: #FFFFFF;
-      text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;
+      text-align: center;
+      flex: 1;
+      color: #fff;
+      text-shadow: 1px 1px 2px #000;
     }
 
     .header .social {
       display: flex;
       gap: 10px;
+      align-items: center;
     }
 
     .header .social img {
-      max-width: 30px;
+      width: 28px;
+      height: 28px;
+      object-fit: contain;
       cursor: pointer;
     }
 
     body {
-      margin-top: 80px;
+      margin-top: 90px;
     }
   </style>
 </head>
