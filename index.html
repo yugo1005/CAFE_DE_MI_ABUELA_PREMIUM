@@ -6,47 +6,81 @@
   <meta name="description" content="Café de Mi Abuela Premium - Café orgánico y artesanal de origen Naríño, Colombia." />
   <title>Café de Mi Abuela Premium</title>
   <script src="https://cdn.tailwindcss.com"></script>
-<link rel="icon" type="image/png" sizes="32x32" href="https://raw.githubusercontent.com/yugo1005/CAFE_DE_MI_ABUELA_PREMIUM/main/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="https://raw.githubusercontent.com/yugo1005/CAFE_DE_MI_ABUELA_PREMIUM/main/favicon-16x16.png">
-<link rel="apple-touch-icon" sizes="180x180" href="https://raw.githubusercontent.com/yugo1005/CAFE_DE_MI_ABUELA_PREMIUM/main/apple-touch-icon.png">
-<link rel="manifest" href="https://raw.githubusercontent.com/yugo1005/CAFE_DE_MI_ABUELA_PREMIUM/main/site.webmanifest">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://raw.githubusercontent.com/yugo1005/CAFE_DE_MI_ABUELA_PREMIUM/main/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://raw.githubusercontent.com/yugo1005/CAFE_DE_MI_ABUELA_PREMIUM/main/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://raw.githubusercontent.com/yugo1005/CAFE_DE_MI_ABUELA_PREMIUM/main/apple-touch-icon.png">
+  <link rel="manifest" href="https://raw.githubusercontent.com/yugo1005/CAFE_DE_MI_ABUELA_PREMIUM/main/site.webmanifest">
 
   <style>
-    .logo-img { width: 1200px; }
-    .bg-custom-black { background-color: #000000; }
-    .text-custom-brown { color: #D2B48C; } /* Café claro avellanado */
-    .text-custom-gold { color: #D4AF37; } /* Dorado metálico */
-    .border-custom-brown { border-color: #8B4513; }
-    .text-between-tables { color: #000000; }
-    .table-text { color: #000000; font-weight: bold; }
-    .descriptive-text { color: #000000; }
-    .bg-custom-green { background-color: #6B7280; color: white; } /* Verde Nariño */
-    .coffee-bg {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://via.placeholder.com/800x400?text=Siluetas+Granos+y+Montañas');
-      background-size: repeat;
-      background-position: center;
-      opacity: 0.9;
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      z-index: -1;
-      background-repeat: repeat;
+    .logo-img {
+      max-width: 200px;
     }
-    .section-container { position: relative; padding: 2rem 0; }
-    .map-bg { background-image: url('https://via.placeholder.com/300x150?text=Mapa+Nariño'); background-size: cover; background-position: center; height: 150px; }
-    .content-box { background: rgba(255, 255, 255, 0.9); padding: 1.5rem; border-radius: 8px; }
-    .contrast-box { background: #FFFFFF; padding: 1.5rem; border-radius: 8px; }
-    .highlight-text { color: #000000; font-weight: bold; } /* Cambiado a negro para contraste */
+
+    .bg-custom-black {
+      background-color: #000000;
+    }
+
+    .text-custom-brown {
+      color: #D2B48C;
+    }
+
+    .text-custom-gold {
+      color: #D4AF37;
+    }
+
+    .border-custom-brown {
+      border-color: #8B4513;
+    }
+
+    .header {
+      background-color: #000000;
+      color: #FFFFFF;
+      padding: 10px 20px;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .header .title {
+      text-align: center;
+      flex-grow: 1;
+      margin: 0 20px;
+      font-size: 24px;
+      font-weight: bold;
+      color: #FFFFFF;
+      text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;
+    }
+
+    .header .social {
+      display: flex;
+      gap: 10px;
+    }
+
+    .header .social img {
+      max-width: 30px;
+      cursor: pointer;
+    }
+
+    body {
+      margin-top: 80px;
+    }
   </style>
 </head>
 <body class="bg-custom-black text-custom-brown font-sans">
-  <header class="bg-custom-black text-white py-6">
-    <div class="container mx-auto text-center relative z-10">
-      <img src=https://github.com/yugo1005/CAFE_DE_MI_ABUELA_PREMIUM/blob/main/LOGO%20FINAL.jpg?raw=true alt="Logo Café de Mi Abuela" class="logo-img mx-auto">
-      <h1 class="text-3xl font-bold mt-4 text-custom-gold">Café de Mi Abuela Premium</h1>
-      <p class="mt-2">Tradición y sabor desde el campo hasta tu taza </p>
+  <header class="header">
+    <img src="https://github.com/yugo1005/CAFE_DE_MI_ABUELA_PREMIUM/blob/main/dsadasdasd.png?raw=true" alt="Logo Café de Mi Abuela" class="logo-img">
+    <div class="title">Tradición y sabor desde el campo hasta tu taza</div>
+    <div class="social">
+      <a href="https://wa.me/573165490792" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+      </a>
+      <a href="https://www.instagram.com/cafedemiabuelapremium/" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">
+      </a>
     </div>
   </header>
 
