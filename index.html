@@ -55,10 +55,83 @@
 
     body {
       margin-top: 90px;
+      background-color: #000;
+      color: #D2B48C;
+    }
+
+    .content-box {
+      background-color: rgba(255, 255, 255, 0.9);
+      padding: 1.5rem;
+      border-radius: 8px;
+      margin: 1rem;
+      color: #000;
+    }
+
+    .table-section {
+      background-color: rgba(255, 255, 255, 0.95);
+      padding: 2rem;
+      border-radius: 8px;
+      margin: 2rem auto;
+      max-width: 1000px;
+      color: #000;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1rem;
+    }
+
+    th, td {
+      border: 1px solid #8B4513;
+      padding: 0.75rem;
+      text-align: center;
+    }
+
+    th {
+      background-color: #000;
+      color: white;
+    }
+
+    .section-container {
+      position: relative;
+      padding: 2rem 0;
+    }
+
+    .coffee-bg {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://via.placeholder.com/800x400?text=Siluetas+Granos+y+Montañas');
+      background-size: cover;
+      background-position: center;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+    }
+
+    .grid {
+      display: grid;
+      gap: 1.5rem;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+
+    figure img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      display: block;
+    }
+
+    .visual-section {
+      position: relative;
+      overflow: hidden;
+      margin-top: 2rem;
+      padding: 2rem;
     }
   </style>
 </head>
-<body class="bg-custom-black text-custom-brown font-sans">
+<body class="font-sans">
   <header class="header">
     <img src="https://github.com/yugo1005/CAFE_DE_MI_ABUELA_PREMIUM/blob/main/dsadasdasd.png?raw=true" alt="Logo Café de Mi Abuela" class="logo-img">
     <div class="title">Tradición y sabor desde el campo hasta tu taza</div>
