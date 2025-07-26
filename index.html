@@ -88,7 +88,162 @@ Porque el buen café no debería ser un lujo, sino una costumbre para todo Colom
         </div>
       </div>
     </section>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Etapas del Café</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      padding: 20px;
+    }
 
+    .contenedor {
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      max-width: 1000px;
+      margin: auto;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      color: #000 ;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      text-align: center;
+      color: #666;
+      font-size: 1.2em;
+      margin-bottom: 40px;
+    }
+
+    .galeria {
+      display: flex;
+      overflow-x: auto;
+      gap: 20px;
+      scroll-snap-type: x mandatory;
+      padding-bottom: 10px;
+    }
+
+    figure {
+      flex: 0 0 auto;
+      width: 280px;
+      background: #fafafa;
+      border-radius: 10px;
+      overflow: hidden;
+      scroll-snap-align: start;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+
+ figure img {
+  width: 100%;
+  height: 300px;           
+  object-fit: cover;      
+  display: block;
+}
+
+
+    figcaption {
+      padding: 15px;
+      font-size: 0.95em;
+      color: #333;
+    }
+
+    .titulo-etapa {
+      font-weight: bold;
+      margin-bottom: 5px;
+      font-size: 1em;
+    }
+
+    /* Scrollbar visual mejorado para navegadores compatibles */
+    .galeria::-webkit-scrollbar {
+      height: 8px;
+    }
+    .galeria::-webkit-scrollbar-thumb {
+      background: #ccc;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+  <section class="contenedor">
+    <h1>Del grano a la taza</h1>
+    <h2>Etapas clave del café, desde la cosecha hasta el tueste</h2>
+
+    <div class="galeria">
+    
+          <figure>
+        <img src=https://github.com/yugo1005/CAFE_DE_MI_ABUELA_PREMIUM/blob/main/cultivo.jpg?raw=true
+        <figcaption>
+          <div class="titulo-etapa">Cultivo</div>
+          En las montañas de Nariño, nuestros cafetales crecen en suelos volcánicos y bajo sombra natural, dando origen a un café de carácter único y calidad excepcional.
+        </figcaption>
+      </figure>
+       
+       <figure>
+        <img src=https://github.com/yugo1005/CAFE_DE_MI_ABUELA_PREMIUM/blob/main/maduracion.jpg?raw=true
+        <figcaption>
+          <div class="titulo-etapa">maduracion</div>
+          El café toma color y carácter.
+A medida que los granos maduran, pasan del verde al rojo intenso, señalando el punto exacto de cosecha. Esta transformación natural garantiza un sabor equilibrado y una taza llena de matices.
+        </figcaption>
+      </figure>
+   
+      <figure>
+        <img src=https://github.com/yugo1005/CAFE_DE_MI_ABUELA_PREMIUM/blob/main/recoleccion.jpeg?raw=true
+        <figcaption>
+          <div class="titulo-etapa">Recoleccion</div>
+          Solo se recolectan manualmente las cerezas maduras, seleccionadas directamente desde el árbol por manos campesinas.
+        </figcaption>
+      </figure>
+
+      <figure>
+        <img src=https://github.com/yugo1005/CAFE_DE_MI_ABUELA_PREMIUM/blob/main/despulpado.png?raw=true
+        <figcaption>
+          <div class="titulo-etapa">Despulpado</div>
+          Tras la cosecha, el fruto pasa por un despulpado y lavado para separar la cáscara del grano en estado húmedo.
+        </figcaption>
+      </figure>
+
+      <figure>
+        <img src=https://github.com/yugo1005/CAFE_DE_MI_ABUELA_PREMIUM/blob/main/WhatsApp%20Image%202025-07-25%20at%209.33.17%20PM.jpeg?raw=true
+        <figcaption>
+          <div class="titulo-etapa">Secado</div>
+          El grano húmedo se seca al sol hasta alcanzar el punto ideal de humedad, conservando su cubierta de pergamino.
+        </figcaption>
+      </figure>
+
+      <figure>
+        <img src=https://github.com/yugo1005/CAFE_DE_MI_ABUELA_PREMIUM/blob/main/pergamino.jpg?raw=true
+        <figcaption>
+          <div class="titulo-etapa">Grano pergamino limpio </div>
+          Así luce el grano una vez seco, aún protegido por su capa de pergamino antes de pasar a la trilla.
+        </figcaption>
+      </figure>
+
+      <figure>
+        <img src=https://github.com/yugo1005/CAFE_DE_MI_ABUELA_PREMIUM/blob/main/verde.jpg?raw=true
+        <figcaption>
+          <div class="titulo-etapa">Grano verde</div>
+          El café es trillado para retirar la última cáscara. Aquí ya está listo para ser clasificado y exportado.
+        </figcaption>
+      </figure>
+
+      <figure>
+        <img src=https://github.com/yugo1005/CAFE_DE_MI_ABUELA_PREMIUM/blob/main/grabo%20tostado.jpeg?raw=true
+        <figcaption>
+          <div class="titulo-etapa">Grano Tostado</div>
+          En esta etapa se revela todo su aroma y sabor. Según el perfil buscado, se aplica un tueste suave, medio o intenso.
+        </figcaption>
+      </figure>
+    </div>
+  </section>
     <section class="section-container mb-10 relative">
       <div class="coffee-bg"></div>
       <div class="content-box">
