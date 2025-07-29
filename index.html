@@ -3,53 +3,51 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Café de Mi Abuela Premium - Café orgánico y artesanal de origen Naríño, Colombia." />
+  <meta name="description" content="Café de Mi Abuela Premium - Café orgánico y artesanal de origen Nariño, Colombia." />
   <title>Café de Mi Abuela Premium</title>
   <script src="https://cdn.tailwindcss.com"></script>
-<link rel="icon" type="image/png" sizes="32x32" href="https://raw.githubusercontent.com/yugo1005/CAFE_DE_MI_ABUELA_PREMIUM/main/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="https://raw.githubusercontent.com/yugo1005/CAFE_DE_MI_ABUELA_PREMIUM/main/favicon-16x16.png">
-<link rel="apple-touch-icon" sizes="180x180" href="https://raw.githubusercontent.com/yugo1005/CAFE_DE_MI_ABUELA_PREMIUM/main/apple-touch-icon.png">
-<link rel="manifest" href="https://raw.githubusercontent.com/yugo1005/CAFE_DE_MI_ABUELA_PREMIUM/main/site.webmanifest">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://raw.githubusercontent.com/yugo1005/CAFE_DE_MI_ABUELA_PREMIUM/main/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://raw.githubusercontent.com/yugo1005/CAFE_DE_MI_ABUELA_PREMIUM/main/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://raw.githubusercontent.com/yugo1005/CAFE_DE_MI_ABUELA_PREMIUM/main/apple-touch-icon.png">
+  <link rel="manifest" href="https://raw.githubusercontent.com/yugo1005/CAFE_DE_MI_ABUELA_PREMIUM/main/site.webmanifest">
 
   <style>
+    body {
+      background-color: white;
+      color: #000000;
+    }
     .logo-img { width: 300px; }
     .bg-custom-black { background-color: #000000; }
-    .text-custom-brown { color: #D2B48C; } /* Café claro avellanado */
-    .text-custom-gold { color: #D4AF37; } /* Dorado metálico */
+    .text-custom-brown { color: #D2B48C; }
+    .text-custom-gold { color: #D4AF37; }
     .border-custom-brown { border-color: #8B4513; }
     .text-between-tables { color: #000000; }
     .table-text { color: #000000; font-weight: bold; }
     .descriptive-text { color: #000000; }
-    .bg-custom-green { background-color: #6B7280; color: white; } /* Verde Nariño */
-    .coffee-bg {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://via.placeholder.com/800x400?text=Siluetas+Granos+y+Montañas');
-      background-size: repeat;
-      background-position: center;
-      opacity: 0.9;
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      z-index: -1;
-      background-repeat: repeat;
+    .bg-custom-green { background-color: #6B7280; color: white; }
+    .section-container {
+      position: relative;
+      padding: 2rem 0;
+      background-color: white;
     }
-    .section-container { position: relative; padding: 2rem 0; }
-    .map-bg { background-image: url('https://via.placeholder.com/300x150?text=Mapa+Nariño'); background-size: cover; background-position: center; height: 150px; }
-    .content-box { background: rgba(255, 255, 255, 0.9); padding: 1.5rem; border-radius: 8px; }
-    .contrast-box { background: #FFFFFF; padding: 1.5rem; border-radius: 8px; }
-    .highlight-text { color: #000000; font-weight: bold; } /* Cambiado a negro para contraste */
+    .content-box, .contrast-box {
+      background: rgba(255, 255, 255, 0.95);
+      padding: 1.5rem;
+      border-radius: 8px;
+    }
+    .highlight-text { color: #000000; font-weight: bold; }
   </style>
 </head>
-<body class="bg-custom-black text-custom-brown font-sans">
+<body class="font-sans">
   <header class="bg-custom-black text-white py-6">
     <div class="container mx-auto text-center relative z-10">
-      <img src=https://github.com/yugo1005/CAFE_DE_MI_ABUELA_PREMIUM/blob/main/dsadasdasd.png?raw=true alt="Logo Café de Mi Abuela" class="logo-img mx-auto">
+      <img src="https://github.com/yugo1005/CAFE_DE_MI_ABUELA_PREMIUM/blob/main/dsadasdasd.png?raw=true" alt="Logo Café de Mi Abuela" class="logo-img mx-auto">
       <h1 class="text-3xl font-bold mt-4 text-custom-gold">Café de Mi Abuela Premium</h1>
-      <p class="mt-2">Tradición y sabor desde el campo hasta tu taza </p>
+      <p class="mt-2">Tradición y sabor desde el campo hasta tu taza</p>
     </div>
   </header>
 
+  <!-- CONTENIDO -->
   <main class="container mx-auto py-10 px-4 md:px-0">
     <section class="section-container mb-10 relative">
       <div class="coffee-bg"></div>
